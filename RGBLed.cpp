@@ -120,7 +120,7 @@ Color RGBLed::GetColor()
 
 void RGBLed::Blip(int Time)
 {
-  TurnOn();
+  Change();
   delay(Time);
-  TurnOff();
+  Change();
 }
