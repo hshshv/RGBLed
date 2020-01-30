@@ -18,5 +18,6 @@ class Led
     void TurnOff();
     void Change();
     int Clarity();
+    void Blip(int Time);
 };
 #endif
