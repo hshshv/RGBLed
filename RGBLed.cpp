@@ -117,3 +117,10 @@ Color RGBLed::GetColor()
 {
   return (_colors[ThisColor]);
 }
+
+void RGBLed::Blip(int Time)
+{
+  TurnOn();
+  delay(Time);
+  TurnOff();
+}
