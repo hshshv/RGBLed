@@ -65,3 +65,10 @@ void Led:: Change()
   }
   TurnOff();
 }
+
+void Led::Blip(int Time)
+{
+  Change();
+  delay(Time);
+  Change();
+}
