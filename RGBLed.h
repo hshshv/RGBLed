@@ -30,6 +30,7 @@ class RGBLed
     void TurnOff();
     void Next(int Step);
     void Next();
+    void Blip(int time);
     Color GetColor();
     int Clarity();
 };
