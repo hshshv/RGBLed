@@ -14,7 +14,7 @@ class RGBLed
     Led Blue;
     bool IsOn;
     Color _colors[colors::size] = { colors::Red, colors::Green, colors::Blue, colors::Purple, colors::Lightblue, colors::Yellow, colors::White };
-    int ThisColor;
+    Color ThisColor;
     int MyClarity = 0;
   public:
     RGBLed(int RedPin, int GreenPin, int BluePin);
